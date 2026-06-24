@@ -87,15 +87,14 @@ Senior Applied ML Scientist with **7+ years** designing and shipping **agentic A
 | **Engineering** | **10+** client adoptions · **1M+** requests/cycle · **+35%** annotation accuracy · **−60%** human training-data dependency · **90%+** production SLA precision |
 
 ```mermaid
-%% Architecture diagram placeholder — replace with your system design
-%% flowchart LR
-%%   A[Requirements Agent] --> B[RAG Context Retrieval]
-%%   B --> C[Labeling Agents]
-%%   C --> D[LLM-as-Judge]
-%%   D --> E{Confidence Gate}
-%%   E -->|Low| F[Human Review / HITL]
-%%   E -->|High| G[Production Labels]
-%%   F --> H[Feedback Loop] --> C
+flowchart LR
+  A[Requirements Agent] --> B[RAG Context Retrieval]
+  B --> C[Labeling Agents]
+  C --> D[LLM-as-Judge]
+  D --> E{Confidence Gate}
+  E -->|Low| F["Human Review / HITL"]
+  E -->|High| G[Production Labels]
+  F --> H[Feedback Loop] --> C
 ```
 
 **Stack:** LangGraph · RAG · HITL · LLM-as-Judge · Python
@@ -111,22 +110,21 @@ Senior Applied ML Scientist with **7+ years** designing and shipping **agentic A
 | **Engineering** | Production-ready ingestion & chunking · Hybrid retrieval architecture · Automated eval harness for regression-safe deployments |
 
 ```mermaid
-%% Architecture diagram placeholder — replace with your system design
-%% flowchart TB
-%%   subgraph Ingestion
-%%     A[Confluence API] --> B[Parser & Chunker]
-%%     B --> C[Embedding Pipeline]
-%%   end
-%%   subgraph Retrieval
-%%     D[User Query] --> E[Hybrid Search]
-%%     C --> E
-%%     E --> F[Reranker]
-%%     F --> G[LLM Generation]
-%%   end
-%%   subgraph Eval
-%%     H[Golden Set] --> I[RAG Eval Framework]
-%%     G --> I
-%%   end
+flowchart TB
+  subgraph Ingestion
+    A[Confluence API] --> B["Parser & Chunker"]
+    B --> C[Embedding Pipeline]
+  end
+  subgraph Retrieval
+    D[User Query] --> E[Hybrid Search]
+    C --> E
+    E --> F[Reranker]
+    F --> G[LLM Generation]
+  end
+  subgraph Eval
+    H[Golden Set] --> I[RAG Eval Framework]
+    G --> I
+  end
 ```
 
 **Stack:** LlamaIndex · Vector DBs · Hybrid Search · FastAPI · Eval Frameworks
@@ -142,13 +140,12 @@ Senior Applied ML Scientist with **7+ years** designing and shipping **agentic A
 | **Engineering** | **~50% → 90%+** NER precision (**+80%** lift) · **+50%** automation throughput · **−40%** retraining latency · Tier-1 institution deployment |
 
 ```mermaid
-%% Architecture diagram placeholder — replace with your system design
-%% flowchart LR
-%%   A[Raw Payment Data] --> B[Synthetic Data Gen]
-%%   B --> C[LoRA Fine-Tuning]
-%%   C --> D[Transformer NER]
-%%   D --> E[Validation & Guardrails]
-%%   E --> F[AML Screening Pipeline]
+flowchart LR
+  A[Raw Payment Data] --> B[Synthetic Data Gen]
+  B --> C[LoRA Fine-Tuning]
+  C --> D[Transformer NER]
+  D --> E["Validation & Guardrails"]
+  E --> F[AML Screening Pipeline]
 ```
 
 **Stack:** Hugging Face Transformers · LoRA/PEFT · PyTorch · Synthetic Data · NER
