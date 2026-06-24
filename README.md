@@ -72,21 +72,6 @@ Senior Applied ML Scientist with **7+ years** designing and shipping **agentic A
 
 ---
 
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rsong0606&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&rank_icon=percentile" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rsong0606&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
-
-<br />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rsong0606&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
-
-</div>
-
----
-
 ## Featured Open-Source Projects
 
 > Production-minded systems at the intersection of **agentic AI**, **enterprise retrieval**, and **financial compliance**.
