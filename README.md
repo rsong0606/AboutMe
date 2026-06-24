@@ -3,7 +3,9 @@
 <!-- Banner: replace src with your custom banner image when ready -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=180&section=header&text=Runtian%20(Song)%20Song&fontSize=42&fontColor=e94560&animation=twinkling" alt="Banner" width="100%" />
 
-### **Senior AI Engineer · Enterprise RAG · Multi-Agent Systems · KYC/AML**
+### **Senior AI Engineer / Senior Applied Scientist / FED**
+
+*Enterprise RAG · Multi-Agent Systems · KYC/AML*
 
 *Building production-grade agentic AI where regulatory precision meets scalable LLM engineering.*
 
@@ -19,13 +21,13 @@
 
 ## About
 
-Senior Applied ML Scientist with **7+ years** designing and shipping **agentic AI systems** for global financial institutions. I bridge **deep LLM engineering** — RAG, multi-agent orchestration, fine-tuning, and observability — with **high-stakes compliance workflows** (KYC/AML, payment screening, document intelligence).
+Senior AI Engineer / Senior Applied Scientist with **7+ years** designing and shipping **agentic AI systems** for FED and global financial institutions. I bridge **deep LLM engineering** — RAG, multi-agent orchestration, fine-tuning, and observability — with **high-stakes compliance workflows** (KYC/AML, payment screening, document intelligence).
 
 | Domain | Highlights |
 | :--- | :--- |
 | **Impact** | NLP precision **~50% → 90%+** · **50%** automation throughput lift · **30%** fewer post-deploy correction cycles |
 | **Leadership** | GenAI technical strategy across **5+** enterprise deployments · Executive stakeholder engagement at Tier-1 banks |
-| **Current** | **Senior AI Engineer** @ WorkFusion — Applied ML & Generative AI |
+| **Current** | **Senior AI Engineer / Senior Applied Scientist** @ WorkFusion — FED · Generative AI |
 
 ---
 
@@ -156,7 +158,7 @@ flowchart LR
 
 | Experience | Role | Focus |
 | :--- | :--- | :--- |
-| **WorkFusion** · May 2021 – Present | Senior AI Engineer | GenAI strategy · 10+ LLM document systems · MLOps guardrails · Executive delivery |
+| **WorkFusion** · May 2021 – Present | Senior AI Engineer / Senior Applied Scientist | GenAI strategy · FED deployments · MLOps guardrails · Executive delivery |
 | **WorkFusion** · Nov 2018 – May 2021 | Data Scientist | Production ML pipelines · NLP automation · Entity extraction |
 
 **Education**
